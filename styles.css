@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: "Roboto";
 
 }
@@ -39,6 +40,54 @@ body {
 
 main {
     flex: 1;
+}
+
+.section-1 {
+    background-color: #1f2937;
+    display: flex;
+    height: 300px;
+    padding: 100px 190px;
+    gap: 50px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 1800;
+    color: #f9faf8;
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px 0;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 40px;
+    margin: 10px 0;
+
+}
+
+.home-img {
+    width: 500px;
+}
+
+.section-2 {
+    height: 300px;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    height: 300px;
+}
+
+.section-4 {
+    height: 300px;
 }
 
 .footer {
