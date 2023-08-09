@@ -36,3 +36,16 @@ body {
 .link {
     text-decoration: none;
 }
+
+main {
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
