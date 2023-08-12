@@ -1,8 +1,8 @@
+/* ------------------ General ------------------ */
 * {
     margin: 0;
     padding: 0;
     font-family: "Roboto";
-
 }
 
 body {
@@ -11,6 +11,7 @@ body {
     flex-direction: column;
 }
 
+/* ------------------ Header ------------------ */
 .header {
     display: flex;
     background-color: #1f2937;
@@ -38,10 +39,12 @@ body {
     text-decoration: none;
 }
 
+/* ------------------ Space between header and footer------------------ */
 main {
     flex: 1;
 }
 
+/* ------------------ Section 1 ------------------ */
 .section-1 {
     background-color: #1f2937;
     display: flex;
@@ -75,21 +78,57 @@ button {
 
 .home-img {
     width: 500px;
+    border-radius: 15px;
 }
 
+/* ------------------ Section 2 ------------------ */
 .section-2 {
-    height: 300px;
+    padding-bottom: 100px;
 }
 
+.section-2 h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    flex-basis: 150px;
+    text-align: center;
+}
+
+.illustration {
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    margin: 10px auto;
+}
+
+.card .p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* ------------------ Section 3 ------------------ */
 .section-3 {
     background-color: #e5e7eb;
     height: 300px;
 }
 
+/* ------------------ Section 4 ------------------ */
 .section-4 {
     height: 300px;
 }
 
+/* ------------------ Footer ------------------ */
 .footer {
     display: flex;
     background-color: #1f2937;
